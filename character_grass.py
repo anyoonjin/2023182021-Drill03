@@ -59,20 +59,27 @@ def run_rectangle():
 
 def run_t_bottom():
     print('t_bottom')
+    for x in range(200,700,10):
+        draw_boy(x,100)
     pass
 
 def run_t_left():
     print('t_left')
+    
     pass
 
 def run_t_right():
     print('t_right')
+    y=100
+    for x in range(700,450,-10):
+        y+=10
+        draw_boy(x,y)
     pass
 
 def run_triangle():
     run_t_bottom()
-    run_t_left()
     run_t_right()
+    run_t_left()
 
     pass
 

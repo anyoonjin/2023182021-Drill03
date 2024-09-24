@@ -50,17 +50,36 @@ def run_left():
   
 def run_rectangle():
     print('rectangle')
-    #run_top()
-    #run_right()
-    #run_bottom()
+    run_top()
+    run_right()
+    run_bottom()
     run_left()
-
     
+    pass
+
+def run_t_bottom():
+    print('t_bottom')
+    pass
+
+def run_t_left():
+    print('t_left')
+    pass
+
+def run_t_right():
+    print('t_right')
+    pass
+
+def run_triangle():
+    run_t_bottom()
+    run_t_left()
+    run_t_right()
+
     pass
 
 while True:
     #run_circle()
-    run_rectangle()
+    #run_rectangle()
+    run_triangle()
     break
 
 close_canvas()

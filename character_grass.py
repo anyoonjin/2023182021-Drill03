@@ -65,15 +65,19 @@ def run_t_bottom():
 
 def run_t_left():
     print('t_left')
-    
+    y=475
+    for x in range(450,200,-10):
+        y-=15
+        draw_boy(x,y)
     pass
 
 def run_t_right():
     print('t_right')
     y=100
     for x in range(700,450,-10):
-        y+=10
+        y+=15
         draw_boy(x,y)
+    print(y)
     pass
 
 def run_triangle():
